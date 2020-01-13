@@ -1,0 +1,103 @@
+.homestyle{
+      
+        background: #131313;
+}
+.maincontent{
+            position:absolute;
+            top:150px;
+             left: 200px;
+            display: flex;
+            
+         width: 80%;
+}
+span {
+        margin-left: 12%;
+        margin-top: -23px !important;
+        
+}
+.main-text {
+        /* border: 2px solid green; */
+        padding-top: 12%;
+        width: 100%;
+        color: whitesmoke;
+        margin-left: 10%;
+}
+.img-style {
+        width: 411px;
+       border:20px solid rgb(97, 96, 96);
+       border-radius: 233px;
+}
+#box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 200px;
+        color: white;
+        font-family: 'Raleway';
+        font-size: 2.5rem;
+      }
+      .gradient-border {
+        --borderWidth: 3px;
+        background: #1D1F20;
+        position: relative;
+        border-radius: var(--borderWidth);
+      }
+      .gradient-border:after {
+        content: '';
+        position: absolute;
+        top: calc(-1 * var(--borderWidth));
+        left: calc(-1 * var(--borderWidth));
+        height: calc(100% + var(--borderWidth) * 2);
+        width: calc(100% + var(--borderWidth) * 2);
+        background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+        border-radius: calc(2 * var(--borderWidth));
+        z-index: -1;
+        animation: animatedgradient 3s ease alternate infinite;
+        background-size: 300% 300%;
+      }
+      
+    
+
+   .btn-clr {
+           background-color: forestgreen;
+           color: whitesmoke;
+           margin-left: 12%;
+           margin-top: 6%;
+   }
+   .main-text { 
+ 
+   
+   position: relative;
+   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+   -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+
+   animation-duration: 4s;
+ }
+ 
+
+ 
+ /* Standard syntax */
+ @keyframes example {
+   0%   {margin-left: ;}
+  
+   100% {}
+ }
+ #slide {
+        position: relative;
+        left: -600px;
+        /* width: 600px; */
+       
+        -webkit-animation: slide 0.1s forwards;
+        -webkit-animation-delay: 1s;
+        animation: slide 0.11s forwards;
+        animation-delay: 1s;
+    }
+    
+    @-webkit-keyframes slide {
+        100% { left: 0; }
+    }
+    
+    @keyframes slide {
+        100% { left: 0; }
+    }
