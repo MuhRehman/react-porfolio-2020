@@ -1,5 +1,8 @@
 import React, { Component, lazy, Suspense } from 'react';
 import rehman from './img/r11.png';
+import instagram from './img/instagram.png';
+import linkdin from './img/linkedin1.png';
+import github from './img/github-logo.png';
 import './Homestyle.css';
 import {Link} from 'react-router-dom';
 
@@ -24,19 +27,25 @@ const Home = () => {
         <Animated animationIn="fadeOutRightBig" animationOut="fadeOut" isVisible={true}>
         <div className="maincontent">
 
-        <div id="slide">
+        <div id="slideInleft">
         <img  className="img-style"  src={rehman}   alt=""/>
         </div>
         
-      <div className="main-text">
+      <div id="slideInRight" className="main-text">
     
         <h1> Hey
           I'm Abdul Rehman</h1>
-          <span>a young</span>
+          <span className="spantext" >a young</span>
         <h2>Front-end Web Developer</h2>
+        <div className="icons">
+          <div className="item"><a target="_blank"  href=""><img src={github} alt=""/></a></div>
+          <div className="item"><a target="_blank"  href=""><img src={linkdin} alt=""/></a></div>
+          <div className="item"><a  target="_blank"  href="https://www.instagram.com/rehman_coding/"><img src={instagram} alt=""/></a></div>
+        </div>
         <div className="btn btn-clr">
-        <Link to="About" >    View My Work </Link>
-        {/* <Link to="About" >    View My Work </Link> */}
+        
+        <Link to="About" > <span>View My Work</span></Link>
+    
         
 
      

@@ -4,8 +4,76 @@ width: 604px;
 margin: auto;
 }
 .contactstyle{
-    
-    height: 100vh;
-    background-color: #808080;;
-    
+    background-image: url("img/maps1.png");
+    height: 710px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: gray;
+}
+.margin1 {
+padding-top: 10%;
+}
+.mar-1 {
+    width: 240px;
+    margin: auto;
+    padding: 8px;
+}
+.skype img {
+    width: 30%;
+}
+.call img {
+    width: 30%;
+}
+.mail img {
+    width: 30%;
+}
+textarea {
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+    margin-top: 42px;
+  }
+  .input-section label {
+      font-size: 22px;
+      margin: 12px;
+  }
+  .email2 {
+    font-size: 35px;
+}
+.phone-1 i{ 
+ font-size: 100px;
+}
+.card-text p{
+color:whitesmoke;
+font-size: 28px;
+
+
+} 
+
+
+.phone-1 i:hover{ 
+    /* font-size: 150px; */
+    color: white;
+   }
+
+
+.bounce-5 {
+    animation-name: bounce-5;
+    animation-timing-function: ease;
+}
+@keyframes bounce-5 {
+    0%   { transform: scale(1,1)    translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1) translateY(-100px); }
+    50%  { transform: scale(1,1)    translateY(0); }
+    57%  { transform: scale(1,1)    translateY(-7px); }
+    64%  { transform: scale(1,1)    translateY(0); }
+    100% { transform: scale(1,1)    translateY(0); }
 }

@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Rubik&display=swap');
+
 .homestyle{
       
         background: #131313;
@@ -10,10 +13,14 @@
             
          width: 80%;
 }
-span {
+/* span {
         margin-left: 12%;
         margin-top: -23px !important;
         
+} */
+.spantext {
+        margin-left: 72px;
+        padding-top: -12px !important;
 }
 .main-text {
         /* border: 2px solid green; */
@@ -59,11 +66,26 @@ span {
       
     
 
-   .btn-clr {
+   .btn-clr span{ 
+        color: whitesmoke;
+        width: 30% !important;
+   }
+   .btn-clr { 
            background-color: forestgreen;
-           color: whitesmoke;
-           margin-left: 12%;
-           margin-top: 6%;
+        
+            margin: auto;
+           margin-left: 5%;
+           margin-top: 2%;
+           width: 20%;
+   }
+   .icons  {
+      display: flex;
+   }
+   .icons .item {
+    margin: 12px;
+   }
+   .icons .item img {
+           width: 51px;
    }
    .main-text { 
  
@@ -75,23 +97,20 @@ span {
    animation-duration: 4s;
  }
  
-
+h1 , h2 {
+        font-family: 'Rubik', sans-serif;
+        font-family: 'IBM Plex Sans', sans-serif;
+}
  
- /* Standard syntax */
- @keyframes example {
-   0%   {margin-left: ;}
-  
-   100% {}
- }
- #slide {
+
+ #slideInleft {
         position: relative;
-        left: -600px;
-        /* width: 600px; */
-       
+        left: -700px;
+        width: 600px;
         -webkit-animation: slide 0.1s forwards;
-        -webkit-animation-delay: 1s;
-        animation: slide 0.11s forwards;
-        animation-delay: 1s;
+        -webkit-animation-delay: 0s;
+        animation: slide 1.11s forwards;
+        animation-delay: 0.5s;
     }
     
     @-webkit-keyframes slide {
@@ -100,4 +119,21 @@ span {
     
     @keyframes slide {
         100% { left: 0; }
+    }
+ #slideInRight {
+        position: relative;
+        right: -900px;
+        /* width: 600px; */
+        -webkit-animation: slide 0.1s forwards;
+        -webkit-animation-delay: 0s;
+        animation: rslide 1.11s forwards;
+        animation-delay: 0.5s;
+    }
+    
+    @-webkit-keyframes rslide {
+        100% { right: 0; }
+    }
+    
+    @keyframes rslide {
+        100% { right:0; }
     }

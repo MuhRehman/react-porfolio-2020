@@ -128,7 +128,7 @@ section {
     display: block;
 }
 .info2 {
-    background:url(./img/template2.png) 0 0 no-repeat;
+    background:url(./img/dentistsidebar.png) 0 0 no-repeat;
     /* display:block; */
       text-align: center;
       color: #fff;
@@ -251,3 +251,216 @@ section {
     -o-transition: background-position 2s ease-in-out;
     transition: background-position 2s ease-in-out;
 }
+
+
+
+.porfolio-animate6 {
+   
+    animation-duration: 3.5s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate1 {
+   
+    animation-duration: 1s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate2 {
+   
+    animation-duration: 1.5s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate3 {
+   
+    animation-duration: 2s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate4 {
+   
+    animation-duration: 2.4s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate5 {
+   
+    animation-duration: 3s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate1 {
+   
+    animation-duration: 1s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate1 {
+   
+    animation-duration: 1s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate1 {
+   
+    animation-duration: 1s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+.porfolio-animate1 {
+   
+    animation-duration: 1s;
+    /* transition: all .5s ease-in-out; */
+    animation-name: bounceIn;
+  }
+  
+  @keyframes bounceIn {
+   
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+   
+    
+  
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
