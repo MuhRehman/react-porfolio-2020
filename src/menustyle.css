@@ -14,7 +14,7 @@ background-color: black;
     max-width: 20%;
 }
 .menustyle ul{
-    height: 7~0px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
